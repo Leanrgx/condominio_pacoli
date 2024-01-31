@@ -29,6 +29,7 @@ body{
 .buttons{
     display: flex;
     gap: 8px;
+    margin-left: auto;
 }
 
 button{
@@ -76,6 +77,7 @@ p{
     color: #585123;
     margin: 0;
     font-size: 24px;
+    font-weight: 700;
 }
 
 .banner{
@@ -91,19 +93,28 @@ p{
     padding: 8px;
 }
 
+/*Body style ends. Location style starts*/
 
-/*Body style ends. Footer style starts*/
+.location{
+    margin: 1em auto;
+}
 
-
-footer{
-    display: flex;
-    justify-content: space-between;
-    background-color: #772f1a;
-    margin: 0;
+.map{
+    width: 640px;
+    height: 480px;
+    margin: 1em auto;
 }
 
 
+/*Location style ends. Footer style starts*/
+
+footer{
+    align-items: center;
+    background-color: #772f1a;
+}
+
 ul{
+    margin-left: auto;
     text-align: right;
     direction: rtl;
     color: white;
