@@ -4,7 +4,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #eec170;
+    background-color: #E7F2F8;
     height: 100vh;
     margin: 0;
     text-align: center;
@@ -15,7 +15,7 @@ body{
 
 .header{
     display: flex;
-    background-color: #772f1a;
+    background-color: #135B32;
     padding: 8px 8px;
     filter: drop-shadow(0px 1px 2px);
     align-items: center;
@@ -33,8 +33,8 @@ body{
 }
 
 button{
-    background-color: #f2a65a;
-    color: #585123;
+    background-color: #135B32;
+    color: #E7F2F8;
     border: none;
     border-radius: 5px;
     padding: 8px 24px;
@@ -49,7 +49,7 @@ button{
     align-items: center;
     font-family: 'Tangerine', 'Open Sans', sans-serif;
     font-weight: 700;
-    color: #585123;
+    color: #1D617A;
     margin: 0;
     font-size: 26px;
 }
@@ -67,14 +67,14 @@ h2{
 .introImg{
     height: auto;
     max-width: 500px;
-    border: 4px solid #585123;
+    border: 4px solid #135B32;
     border-radius: 24px;
     margin-top: 32px;
     margin-bottom: 24px;
 }
 
 p{
-    color: #585123;
+    color: #1D617A;
     margin: 0;
     font-size: 24px;
     font-weight: 700;
@@ -88,7 +88,7 @@ p{
 }
 
 .bannerText{
-    background-color: #f58549;
+    background-color:#1D617A;
     color: white;
     padding: 8px;
 }
@@ -116,7 +116,7 @@ p{
 .casasImage{
     border-radius: 10px;
     background-color: white;
-    padding: 5px 5px 45px 5px;
+    padding: 5px 5px 5px 5px;
     filter: drop-shadow(1px 1px 5px black);
 }
 
@@ -146,11 +146,27 @@ p{
     font-size: 2em;
 }
 
-/*Casas style ends. Footer style starts*/
+/*Casas style ends. Lotes style starts*/
+
+.lotesAltFont, .condAltFont{
+    font-family: Garamond, 'Open Sans', 'sans-serif';
+    width: 50vw;
+    margin: 1em;
+}
+
+.lotesImages{
+    width: 60vw;
+    height: auto;
+    margin-bottom: 1em;
+    border-radius: 10px;
+}
+
+/*Lotes style ends. Footer style starts*/
+
 
 footer{
     align-items: center;
-    background-color: #772f1a;
+    background-color: #135B32;
 }
 
 ul{
@@ -159,3 +175,6 @@ ul{
     direction: rtl;
     color: white;
 }
+
+
+#74BDCB
